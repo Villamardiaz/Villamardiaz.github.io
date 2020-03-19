@@ -110,7 +110,9 @@
 
  #description 
 { 
-	text-align: center; left: 217px; 
+	text-align: center; 
+	left: 217px; 
+	right: 217px;
 	 top: 1458px; 
 	 position: absolute; 
 	 /*width: 860px;
