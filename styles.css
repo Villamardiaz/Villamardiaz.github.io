@@ -127,6 +127,8 @@
 	
 }
 
+/* telefono */
+
 @media only screen and (max-width:620px) {
   /* For mobile phones: */
   .down,.left,.main {
@@ -135,7 +137,7 @@
   }
 	#grad
 { 
-	height: 1734px; 
+	height: 734px; 
 	width: 100%;
 	background-image: linear-gradient(rgba(232,204,202,1), rgba(232,204,202,0)); 
 	border-bottom: 104px; 
@@ -179,7 +181,7 @@
  #Phone 
 { 
 	 left: 70%; 
-	top: 1761px;  
+	top: 761px;  
 	 position: absolute; 
 	 /*width: 249px;
 	 height: 27px;*/
@@ -192,7 +194,7 @@
  #email 
 { 
 	 left: 20%; 
-	 top: 1761px; 
+	 top: 761px; 
 	 position: absolute; 
 	 /*width: 333px;
 	 height: 30px;*/
