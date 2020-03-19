@@ -2,8 +2,8 @@
 	margin: 0;
 	padding: 0;
  }
- 
- #grad
+@media only screen and (min-width:621px) {
+#grad
 { 
 	height: 1734px; 
 	width: 100%;
@@ -42,7 +42,7 @@
 	margin: 5px; 
 	padding: 10px; 
 	transition: all 0.3s ease; 
-} 
+ } 
 
 #background 
 { 
@@ -102,16 +102,10 @@
 .down 
 {
   float:left;
-	padding:20px;
+  padding:20px;
   width:20%;
 }
 
-@media only screen and (max-width:620px) {
-  /* For mobile phones: */
-  .down,.left,.main {
-    width:100%;
-  }
-	
  #email 
 { 
 	 left: 20%; 
@@ -169,7 +163,16 @@
 	top: 28%; 
 	left: 22%;	 
 	z-index:8;
-} 
+}
+	
+}
+@media only screen and (max-width:620px) {
+  /* For mobile phones: */
+  .down,.left,.main {
+    
+	width:100%;
+  }
+
 /* #Logo 
 { 
 	 position: absolute; top: 25%; left: 25%;	 
