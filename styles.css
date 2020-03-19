@@ -128,9 +128,10 @@ top: 1761px;
 
  #Logo 
 { 
-	 position: absolute; top: 25%; left: 25%;	 
-	
-	 z-index:8;
+	position: absolute; 
+	top: 28%; 
+	left: 25%;	 
+	z-index:8;
 } 
 /* #Logo 
 { 
