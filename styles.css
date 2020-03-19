@@ -212,8 +212,8 @@
 	 /*width: 860px;
 	 height: 151px;*/
 	 z-index:6;
-	/*font-size-adjust: 0.8; 
-	position: absolute; 
+	font-size-adjust: 0.5; 
+	/*position: absolute; 
 	left: 20%;*/
 } 
 
@@ -226,8 +226,8 @@
 	 /*width: 768px;
 	 height: 49px;*/
 	 z-index:7; 
-	/*font-size-adjust: 1; 
-	position: absolute; 
+	font-size-adjust: 0.7; 
+	/*position: absolute; 
 	left: 28%;*/
 } 
 
@@ -236,7 +236,7 @@
 	position: absolute; 
 	top: 28%; 
 	left: 22%;	
-	width: 400x;
+	width: 400px;
 	 height: auto;
 	z-index:8;
 }
