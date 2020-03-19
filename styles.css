@@ -145,8 +145,8 @@ top: 1761px;
 	 left: 1095px; 
 	 top: 498px; 
 	 position: absolute; 
-	 width: 43px;
-	 height: 44px;
+	 /*width: 43px;
+	 height: 44px;*/
 	 z-index:9;
 } 
 
@@ -155,7 +155,7 @@ top: 1761px;
 	 left: 1106px; 
 	 top: 437px; 
 	 position: absolute; 
-	 width: 23px;
-	 height: 48px;
+	/* width: 23px;
+	 height: 48px;*/
 	 z-index:10;
 } 
