@@ -34,6 +34,7 @@
 	-webkit-transform: translateY(-50%); 
 	-ms-transform: translateY(-50%); 
 	transform: translateY(-50%); 
+	width: 60%;
 } 
 .icon-bar a 
 { 
@@ -97,6 +98,18 @@
 	/*font-size-adjust: 0.6;*/
 } 
 
+.down 
+{
+  float:left;
+  width:20%;
+}
+
+@media only screen and (max-width:620px) {
+  /* For mobile phones: */
+  .down {
+    width:100%;
+  }
+	
  #email 
 { 
 	 left: 20%; 
