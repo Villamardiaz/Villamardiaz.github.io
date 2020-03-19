@@ -3,7 +3,46 @@
 	padding: 0;
  }
  
- #grad{ height: 1734px; background-image: linear-gradient(rgba(236,205,207,1), rgba(236,205,207,0)); border-bottom: 104px; border-bottom-style: solid;  border-bottom-color: rgb(236,205,207);} .stripe{ position:relative; display: grid; } .stripe:before{ content:""; position: absolute; height: 100%; width: 200vw; left: -100vw; z-index: -1; } .icon-bar{ position: fixed; top:50%; right: 2%; -webkit-transform: translateY(-50%); -ms-transform: translateY(-50%); transform: translateY(-50%); } .icon-bar a { display: block; text-align: center; margin: 5px; padding: 10px; transition: all 0.3s ease; } #background 
+ #grad
+{ 
+	height: 1734px; 
+	background-image: linear-gradient(rgba(236,205,207,1), rgba(236,205,207,0)); 
+	border-bottom: 104px; 
+	border-bottom-style: solid;  
+	border-bottom-color: rgb(236,205,207);
+} 
+.stripe
+{ 
+	position:relative; 
+	display: grid; 
+} 
+.stripe:before
+{ 
+	content:""; 
+	position: absolute; 
+	height: 100%; 
+	width: 100%; 
+	left: -100vw; 
+	z-index: -1; 
+} 
+.icon-bar
+{ 
+	position: fixed; 
+	top:50%; 
+	right: 2%;
+	-webkit-transform: translateY(-50%); 
+	-ms-transform: translateY(-50%); 
+	transform: translateY(-50%); 
+} 
+.icon-bar a 
+{ 
+	display: block; 
+	text-align: center; 
+	margin: 5px; 
+	padding: 10px; 
+	transition: all 0.3s ease; 
+} 
+#background 
 { 
 	 left: 0px; 
 	 top: 0px; 
@@ -88,7 +127,8 @@ top: 1761px;
 
  #Logo 
 { 
-	 position: absolute; top: 25%; left: 25%;	 width: 796px;
+	 position: absolute; top: 25%; left: 25%;	 
+	width: 796px;
 	 height: 326px;
 	 z-index:8;
 } 
