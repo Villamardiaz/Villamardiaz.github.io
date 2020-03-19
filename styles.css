@@ -34,7 +34,7 @@
 	-webkit-transform: translateY(-50%); 
 	-ms-transform: translateY(-50%); 
 	transform: translateY(-50%); 
-	width: 60%;
+	width: 6%;
 } 
 .icon-bar a 
 { 
@@ -44,6 +44,7 @@
 	padding: 10px; 
 	transition: all 0.3s ease; 
 } 
+
 #background 
 { 
 	 left: 0px; 
@@ -96,7 +97,8 @@
 	 height: 27px;*/
 	 z-index:4; 
 	/*font-size-adjust: 0.6;*/
-} 
+}
+
 
 .down 
 {
@@ -120,6 +122,13 @@
 	 z-index:5;
  	/*font-size-adjust: 0.6;*/
 } 
+	
+.left 
+{
+  float:left;
+  width:20%; /* The width is 20%, by default */
+}
+
 
  #description 
 { 
@@ -149,7 +158,11 @@
 	position: absolute; 
 	left: 28%;*/
 } 
-
+.main {
+  float:left;
+  width:60%;
+  padding:0 20px;
+}
  #Logo 
 { 
 	position: absolute; 
