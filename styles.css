@@ -6,6 +6,7 @@
  #grad
 { 
 	height: 1734px; 
+	width: 100%;
 	background-image: linear-gradient(rgba(236,205,207,1), rgba(236,205,207,0)); 
 	border-bottom: 104px; 
 	border-bottom-style: solid;  
