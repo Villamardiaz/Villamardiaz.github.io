@@ -108,7 +108,7 @@
 
 @media only screen and (max-width:620px) {
   /* For mobile phones: */
-  .down {
+  .down,.left,.main {
     width:100%;
   }
 	
