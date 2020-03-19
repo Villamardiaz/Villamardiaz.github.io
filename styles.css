@@ -111,13 +111,16 @@
  #description 
 { 
 	text-align: center; 
-	left: 217px; 
-	right: 217px;
+	left: 20%; 
+	right: 20%;
 	 top: 1458px; 
 	 position: absolute; 
 	 /*width: 860px;
 	 height: 151px;*/
-	 z-index:6;font-size-adjust: 0.8; position: absolute; left: 20%;
+	 z-index:6;
+	/*font-size-adjust: 0.8; 
+	position: absolute; 
+	left: 20%;*/
 } 
 
  #titledescription 
@@ -127,7 +130,10 @@
 	 position: absolute; 
 	 /*width: 768px;
 	 height: 49px;*/
-	 z-index:7; font-size-adjust: 1; position: absolute; left: 28%;
+	 z-index:7; 
+	/*font-size-adjust: 1; 
+	position: absolute; 
+	left: 28%;*/
 } 
 
  #Logo 
