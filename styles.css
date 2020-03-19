@@ -119,7 +119,7 @@
 { 
 	position: absolute; 
 	top: 28%; 
-	left: 22%;
+	left: 10%;
 	width: 90%;
 	 height: auto;
 	z-index:8;
@@ -236,7 +236,7 @@
 	position: absolute; 
 	top: 28%; 
 	left: 22%;	
-	width: 60%;
+	width: 20%;
 	 height: auto;
 	z-index:8;
 }
