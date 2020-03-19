@@ -155,7 +155,7 @@
 	position: absolute; 
 	height: 100%; 
 	width: 100%; 
-	left: -100vw; 
+	/*left: -100vw; */
 	z-index: -1; 
 } 
 .icon-bar
@@ -209,7 +209,7 @@
 	text-align: center; 
 	left: 20%; 
 	right: 20%;
-	 top: 1458px; 
+	 top: 458px; 
 	 position: absolute; 
 	 /*width: 860px;
 	 height: 151px;*/
@@ -223,7 +223,7 @@
 { 
 	 left: 25%;
 	 right: 25%;
-	 top: 1336px; 
+	 top: 336px; 
 	 position: absolute; 
 	 /*width: 768px;
 	 height: 49px;*/
