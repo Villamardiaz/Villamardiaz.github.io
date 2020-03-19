@@ -125,7 +125,8 @@
 
  #titledescription 
 { 
-	 left: 247px; 
+	 left: 25%;
+	 right: 25%;
 	 top: 1336px; 
 	 position: absolute; 
 	 /*width: 768px;
