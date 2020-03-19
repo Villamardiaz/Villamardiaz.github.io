@@ -129,11 +129,17 @@ top: 1761px;
  #Logo 
 { 
 	 position: absolute; top: 25%; left: 25%;	 
+	
+	 z-index:8;
+} 
+/* #Logo 
+{ 
+	 position: absolute; top: 25%; left: 25%;	 
 	width: 796px;
 	 height: 326px;
 	 z-index:8;
 } 
-
+*/
  .Instagram 
 { 
 	 left: 1095px; 
