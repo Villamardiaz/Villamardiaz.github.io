@@ -62,23 +62,52 @@ border: none!important;
   width: 100%;
   height: 100vh;
   position: relative;
-  background: #f5f8fd url("../images/fondo1.jpg") center top no-repeat;
+  background: url("../images/fondo1.jpg") center top no-repeat;
   background-size: cover;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   #hero {
-    height: auto;
-    padding: 100px 0 60px 0;
+    background: url("../images/fondo2.jpg") center top no-repeat;
+    height: 80vh;
+    width: 100%;
+    position: relative;
+    background-size: cover;
+    /*padding: 0px 0px 0px 0px;*/
   }
-  #hero .container {
-    height: auto !important;
-  }
-  #hero .intro-img {
-    width: 80%;
+}
+@media (max-width: 600px) {
+  #hero {
+    background: url("../images/fondo2.jpg") center top no-repeat;
+    height: 70vh;
+    width: 100%;
+    position: relative;
+    background-size: cover;
+    /*padding: 0px 0px 0px 0px;*/
   }
 }
 
+@media (max-width: 550px) {
+  #hero {
+    background: url("../images/fondo3.jpg") center top no-repeat;
+    height: 60vh;
+    width: 100%;
+    position: relative;
+    background-size: cover;
+    /*padding: 0px -100px 0px 20px;*/
+  }
+}
+
+  /*#hero .container {
+    height: auto !important;
+  }
+  #hero .intro-img {
+    width: 10%;
+    height: auto !important;
+  }*/
+
+
+/*
 @media (min-width: 992px) {
   #hero .intro-info {
     padding-top: 80px;
@@ -128,10 +157,16 @@ border: none!important;
 #hero .intro-info .btn-get-started:hover, #hero .intro-info .btn-services:hover {
   background: #0a98c0;
 }
+*/
+
+/*--------------------------------------------------------------
+# Footer color
+--------------------------------------------------------------*/
 
 .footer-custom { 
 background-color: rgb(207, 149, 145);
 } 
+
 
 /*--------------------------------------------------------------
 # Carousel Section
